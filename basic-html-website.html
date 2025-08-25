@@ -4,37 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic Html Website - russtiii</title>
+    <link rel="stylesheet" href="/Basic-HTML-website/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaushan+Script&display=swap" rel="stylesheet">
     <!-- Optional: Add a favicon -->
     <!-- <link rel="icon" href="images/favicon.ico"> -->
 </head>
 <body>
     <div class="main-container">
         <header class="header">
-            <!-- header goes here -->
-            <img src="images/logo2.jpg" alt="Russtiii Logo">
-            <h1>Russtiii</h1>
+            <div class="header-logo">
+                <a href="#" class="logo-link">
+                <img src="images/android-chrome-512x512.png" alt="Russtiii Logo" class="logo">
+                <h2>Russel Donn</h2>
+                </a>
+            </div>
             <nav class="navbar">
-                <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul>
+                    <li><a href="#" id = "navbar-links" class="list-item">Home</a></li><p>/</p>
+                    <li><a href="#" id = "navbar-links" class="list-item">Projects</a></li><p>/</p>
+                    <li><a href="#" id = "navbar-links" class="list-item">Articles</a></li><p>/</p>
+                    <li><a href="#" id = "navbar-links" class="list-item">Contact</a></li>
                 </ul>
             </nav>
-            <div class="overview">
-                <h1 class="overview-header">Frontend Developer</h1>
-                <p class="overview-details">HTML only with no proper layout</p>
-            </div>
         </header>
-        <main>
+        <div class="overview">
+                <h1 id="overview-header" class="script">Frontend Developer</h1>
+                <p class="overview-details">HTML only with no proper layout, no styling.</p>
+        </div>
+        <main class="main-content">
             <!-- Main content goes here -->
-             <section class="Projects">
+             <section class="projects">
+                <h4 class="script">Projects</h4>
                 <ul class="project-list">
-                    <li class="list item">HTML only portfolio</li>
-                    <li class="list item">Calculator</li>
-                    <li class="list item">Quiz App</li>
-                    <li class="list item">Countdown Timer</li>
-                    <li class="list item">Upcoming Product Page</li>
+                    <li><a href="#" class="list-item">HTML only portfolio</a></li>
+                    <li><a href="#" class="list-item">Calculator</a></li>
+                    <li><a href="#" class="list-item">Quiz App</a></li>
+                    <li><a href="#" class="list-item">Countdown Timer</a></li>
+                    <li><a href="#" class="list-item">Upcoming Product Page</a></li>
                 </ul>
              </section>
     </div>

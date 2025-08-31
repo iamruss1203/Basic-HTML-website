@@ -149,5 +149,25 @@ body {
 #footer-section {
     margin-bottom: 10px;
     border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#footer-script {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 15px;
+}
